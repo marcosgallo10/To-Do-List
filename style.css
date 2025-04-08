@@ -8,8 +8,8 @@ html, body {
 }
 #inputField {
   width: 300px;
-  height: 46px;
-  border: 1px solid black;
+  height: 25px;
+  border: 2px solid black;
   outline: none;
   font-size: 25px;
   vertical-align: middle;
