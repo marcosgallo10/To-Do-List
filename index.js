@@ -2,7 +2,7 @@ let addToDoButton = document.getElementById('addToDo');
 let toDoContainer = document.getElementById('toDoContainer');
 let inputField = document.getElementById('inputField');
 
-document.querySelectorAll('ol').forEach(function(element) {
+document.querySelectorAll('li').forEach(function(element) {
   element.addEventListener('click', function(){
     element.style.textDecoration = "line-through"
   });
